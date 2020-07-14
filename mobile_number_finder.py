@@ -16,6 +16,9 @@ phone_number = phonenumbers.parse("+919944244734")
 print(geocoder.description_for_number(phone_number,'en'))
 #printing the service provider
 print(carrier.name_for_number(phone_number,'en'))
+#printing the time zone
+print(timezone.time_zones_for_number(phone_number))
+
 
 
 
