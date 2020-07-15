@@ -7,7 +7,7 @@ Created on Tue Jul 14 13:00:58 2020
 
 from turtle import *
 
-speed(5)
+speed(300)
 bgcolor('black')
 r,g,b = 255,0,0
 for i in range(255*2):
